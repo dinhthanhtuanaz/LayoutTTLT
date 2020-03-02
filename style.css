@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #222;
+	font-weight: 400;
+}
+img{
+	max-width: 100%;
+}
+.paddingY-40{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.theme-bg-gradient{
+	background-image: -webkit-gradient(linear, left top, right top, from(#0098d6), to(#00cbd6));
+  background-image: linear-gradient(to right, #0098d6 0%, #00cbd6 100%);
+  -webkit-box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
+  box-shadow: 0 5px 29px rgba(0, 205, 214, 0.3);
+}
+
+/*======Header======*/
+
+	.paddingT-70 {
+    padding-top: 70px;
+
+}
+.header{
+	position: fixed;
+	width: 100%;
+	z-index: 2000;
+}
+.nav-link{
+	color:#fff;
+	font-weight: 500;
+	font-size: 20px;
+}
+.header .navbar-collapse{
+	justify-content: flex-end;
+	text-align: center;
+}
+.header .navbar-toggler{
+	    background-color: #fff;
+    padding: 0 3px;
+    color: #0099d6;
+    cursor: pointer;
+}
+.header .navbar-toggler-icon{
+	font-size: 25px;
+    line-height: 39px;
+}
+.header .navbar-brand span{
+	font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+/*======Main-Slider======*/
+.main-slider .carousel-item img{
+	width: 100%;
+}
+.main-slide__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.main-slide__btn a{
+	font-size: 30px;
+}
+.main-slide__btn .left{
+	float: left;
+	margin-left: 30px;
+}
+.main-slide__btn .right{
+	float: right;
+	margin-right: 30px;
+}
+/*======Courses======*/
+.courses-item{
+	padding-bottom: 25px;
+}
+.courses-title{
+	font-size: 20px;
+}
+.courses-title a{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.courses-hours{
+	margin-bottom: 0;
+}
+/*======statistical - thống kê======*/
+.statistical-item{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.statistical-item i{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+/*=========Register=========*/
+.courses-select{
+	height: 38px;
+  padding-left: 5px;
+}
+/*=========News-item=========*/
+.news-item__thumb{
+	display: block;
+	width: 350px;
+	overflow: hidden;
+}
+.news-item__thumb img{
+	transition: .3s;
+}
+.news-item__thumb:hover img{
+	transform: scale(1.2);
+}
+.news-item__name{
+	margin-bottom: 0;
+}
+.news-item__name a{
+	    font-size: 18px;
+    display: block;
+    padding: 5px 0;
+}
+
+.social a{
+	    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    transition: .3s;
+}
+.social a:hover{
+	transform: translateY(-10px);
+}
+.social a i{
+	color:#fff;
+}
+.social a.fb{
+	background-color: #3b5999;
+}
+.social a.tw{
+	background-color: #55acee;
+}
+.social a.gg{
+	background-color: #dd4b39;
+}
+.social a.yt{
+	background-color: #cd201f;
+}
+.bot-footer p{
+  margin-bottom: 0;
+  line-height: 40px;
+  height: 40px;
+}
+
+.navigation .collapse{
+	display: flex;
+}
+@media screen and (max-width:768px){
+
+}
